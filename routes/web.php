@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth')->group(function () {
     //Home
-    Route::get('/', [HomeController::class, 'index'])->name('index');
+    Route::get('/', [HomeController::class, 'index'])->name('dashboard');
 
 
     Route::middleware('admin')->group(function () {

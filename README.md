@@ -92,12 +92,18 @@ Az archivált állatok listája tartalmazza:
 
 - Laravel
 - PHP
-- MySQL
+- SQLite
 - Blade
 - Eloquent ORM
 - Carbon
 - Tailwind CSS
 - DaisyUI
+
+## Indítás Windows alatt
+
+Telepítsd a PHP 8.2 vagy újabb verzióját a PDO SQLite támogatással, a Composert és a Node.js-t. Ezután a projekt gyökérkönyvtárában futtasd az `init.bat` fájlt. A parancsfájl előkészíti a függőségeket, létrehozza az SQLite adatbázist, lefuttatja a migrációkat, elkészíti a frontend fájlokat, majd elindítja a Laravel fejlesztői szervert.
+
+Az alkalmazás a [http://127.0.0.1:8000](http://127.0.0.1:8000) címen lesz elérhető. A későbbi indítások során a parancsfájl megőrzi az adatbázis tartalmát, és csak az új migrációkat futtatja le.
 
 ## Felhasználói felület
 

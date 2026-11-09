@@ -11,7 +11,7 @@
 <body class="min-h-screen bg-neutral-200">
 <nav class="navbar bg-neutral text-white p-2">
     <div class="flex-1">
-        <a href="{{ route('index') }}" class="btn btn-ghost normal-case text-2xl">Vadaspark</a>
+        <a href="{{ route('dashboard') }}" class="btn btn-ghost normal-case text-2xl">Vadaspark</a>
     </div>
     <div class="flex-none navbar-start">
         <ul class="menu menu-horizontal px-1">
